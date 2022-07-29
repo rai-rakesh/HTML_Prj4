@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+body,html {
+    height: 100%;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.grow-list {
+    width: 30%;
+    position: relative;
+    right: 32%;
+    padding-top: 1%;
+}
+
+
+.grow-list .list .list-item {
+    display: inline-block;
+    padding-left:6%;
+    color: gray;
+    font-size: small;
+    cursor: pointer;
+}
+
+.grow-list .list .list-item:hover {
+    color: #000;
+
+}
+
+.logo-div {
+
+    margin-right: 30%;
+    cursor: pointer;
+}
+.logo-div img {
+    height: 70%;
+}
+
+.button-group {
+    padding-top: 1%;
+    width: 10%;
+}
+
+.button-group .nav-button {
+    
+    padding: 8% 12%;
+    
+}
+
+button {
+    background-color: #5955B3;
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.banner-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 5%;
+    padding-left: 10%;
+    height: 400px;
+}
+
+.left-text {
+height: 60%;
+}
+
+.left-text h1 {
+    font-size: 3rem;
+    color: #3C2F60;
+}
+
+.left-text h1 span {
+
+        color: #5955B3;
+}
+
+
+
+.left-text .description {
+    padding-top: 10%;
+    font-size: small;
+    color: gray;
+}
+
+.illustration {
+    height: 62%;
+    padding-left: 28%;
+}
+
+.illustration img {
+    height: 100%;
+    
+}
+
+.left-text button {
+    padding: 4% 12%;
+}
